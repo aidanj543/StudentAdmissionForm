@@ -23,6 +23,9 @@ $email = strtolower($department."_".$firstPart. $lastPart.$yearLastTwoDigits."@j
     </head>
     <body>
         <h1>Email Created!</h1>
+        <p>Student Name: <?php echo $first . " " . $last; ?></p>
+        <p>Department: <?php echo strtoupper($department); ?></p>
+        <p>Date of Birth: <?php echo $dateOfBirth; ?></p>
         <p>Your email address is: <?php echo $email; ?></p>
     </body>
 </html>
