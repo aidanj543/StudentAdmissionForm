@@ -19,7 +19,7 @@ $email = strtolower($department."_".$firstPart. $lastPart.$yearLastTwoDigits."@j
 <html>
     <head>
         <title>Email Created</title>
-        <link rel = "stylesheet" href = "styles.css">
+        <link rel = "stylesheet" href = "emailcreator.css">
     </head>
     <body>
         <h1>Email Created!</h1>
