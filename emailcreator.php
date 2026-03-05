@@ -7,3 +7,8 @@ $department = $_POST["department"];
 
 $year = date("Y");
 
+$yearLastTwoDigits = substr($year, -2);
+$firstPart = substr($first, 0, 4);
+$lastPart = substr($last, 0, 4);
+
+$email = $department."_".$firstPart. $lastPart.$yearLastTwoDigits."@jbu.edu";
